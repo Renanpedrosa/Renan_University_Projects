@@ -1,0 +1,80 @@
+main
+	InitClock
+	InitPorts
+		Unlock_IOLOCK
+		PPS_Mapping
+			_PPS_Mapping
+				Unlock_IOLOCK
+				Lock_IOLOCK
+		Lock_IOLOCK
+	InitTimersCapture
+	InitCAN
+		ECAN1DmaChannelInit
+		ECAN1Initialize
+			ECAN1SetOperationMode
+			ECAN1SetBaudRate
+		ECAN1SetBufferSize
+		ECAN1SelectTxBuffers
+		ECAN1SetOperationMode
+		ECAN1SetMask
+			ECAN1IDToRegs
+		ECAN1SetFilter
+			ECAN1IDToRegs
+	InitMain
+		ADC1_Init_Advanced
+		UART1_Init
+			Get_Fosc_kHz
+			Delay_100ms
+			_Multiply_32x32
+			_Modulus_32x32
+			_Divide_32x32
+		UART1_Write_Text
+			UART1_Write
+		UART1_Write
+		UART2_Init
+			Get_Fosc_kHz
+			Delay_100ms
+			_Multiply_32x32
+			_Modulus_32x32
+			_Divide_32x32
+		UART2_Write_Text
+			UART2_Write
+		UART2_Write
+		SPI1_Init_Advanced
+		ADXL345_Init
+			ADXL345_Write
+				SPI1_Write
+					SPI1_Read
+	ECAN1Read
+		RegsToECAN1ID
+	GPS_Parse
+		strstr
+			strncmp
+			strlen
+			strchr
+	ADC1_Get_Sample
+	ADXL345_Read_XYZ
+		ADXL345_Read
+			SPI1_Write
+				SPI1_Read
+			SPI1_Read
+	ADXL345_Init
+		ADXL345_Write
+			SPI1_Write
+				SPI1_Read
+	abs
+	Write_UART_UDATA
+		WordToStr
+		UART1_Write_Text
+			UART1_Write
+		UART1_Write
+	UART1_Write_Text
+		UART1_Write
+	UART1_Write
+C1Interrupt
+U2RXInterrupt
+interrupt_timer5
+InputCapture7Int
+InputCapture2Int
+interrupt_timer1
+InputCapture1Int

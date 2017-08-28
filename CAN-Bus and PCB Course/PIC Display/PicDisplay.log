@@ -1,0 +1,12 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F2480 -DL -O11111114 -fo8 -N"C:\Users\Renan\Documents\Eletrônica\FSAE\Aula Protocolo CAN\PIC Display\PicDisplay.mcppi" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\Renan\Documents\Eletrônica\FSAE\Aula Protocolo CAN\PIC Display\" "PicDisplay.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_Conversions.mcl" "__Lib_CAN_C_A.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+diagnostics: 0	125	All files Preprocessed in 47 ms	 
+diagnostics: 0	121	Compilation Started	PicDisplay.c
+diagnostics: 192	122	Compiled Successfully	PicDisplay.c
+diagnostics: 0	126	All files Compiled in 530 ms	 
+hint: 0	1140	Used RAM (bytes): 119 (16%)  Free RAM (bytes): 628 (84%)	Used RAM (bytes): 119 (16%)  Free RAM (bytes): 628 (84%)
+hint: 0	1140	Used ROM (bytes): 3398 (21%)  Free ROM (bytes): 12986 (79%)	Used ROM (bytes): 3398 (21%)  Free ROM (bytes): 12986 (79%)
+diagnostics: 0	124	Project Linked Successfully	PicDisplay.mcppi
+diagnostics: 0	127	Linked in 2449 ms	 
+diagnostics: 0	128	Project 'PicDisplay.mcppi' completed: 4290 ms	 
+diagnostics: 0	103	Finished successfully: 10 mai 2010, 19:37:05	PicDisplay.mcppi

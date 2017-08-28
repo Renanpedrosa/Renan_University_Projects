@@ -1,0 +1,76 @@
+[DEVICE]
+Name=P33FJ64GP804
+Clock=80000000
+[MEMORY_MODEL]
+Value=-1
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=CT01.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=2000
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+Count=3
+File0=CT01.c
+File1=Inicializacoes_LSM.c
+File2=PGA_Drivers_LSM.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+Count=3
+File0=..\..\CT02 - Acelerômetro\Exemplos GPS\GPS Article - dsPIC Source Codes\mikroC dsPIC\Smart_GPS.c
+File1=CT01.c
+File2=Inicializacoes_LSM.c
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=5
+Path0=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\defs\
+Path1=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\uses\
+Path2=C:\Users\Renan\Documents\My Dropbox\Fórmula Eng 3\Engenharia 3\CT01 - Medidor Bateria\CT01\
+Path3=C:\Users\Renan\Documents\My Dropbox\Fórmula SAE 2012\Engenharia 3\CT01 - Medidor Bateria\CT01\
+Path4=C:\Users\Mateus\Documents\Programas uC\Telemetria 2011\CT01\
+[HEADER_PATH]
+Count=2
+Path0=C:\Users\Renan\Documents\My Dropbox\Fórmula SAE 2012\Engenharia 3\CT01 - Medidor Bateria\CT01\
+Path1=C:\Users\Renan\Documents\My Dropbox\Fórmula Eng 3\Engenharia 3\CT01 - Medidor Bateria\CT01\
+[HEADERS]
+Count=4
+File0=__Lib_ECAN1_Defs.h
+File1=ECAN_IDs.h
+File2=Inicializacoes_LSM.h
+File3=PGA_Drivers_LSM.h
+[PLDS]
+Count=0
+[Useses]
+Count=15
+File0=ADC
+File1=Conversions
+File2=C_Math
+File3=C_Stdlib
+File4=C_String
+File5=C_Type
+File6=Peripheral_Pin_Select
+File7=SPI
+File8=Time
+File9=UART
+File10=ECAN
+File11=Mmc_FAT16
+File12=Mmc
+File13=Mmc_Fat16_Config
+File14=Button
+[EXPANDED NODES]
+Count=0

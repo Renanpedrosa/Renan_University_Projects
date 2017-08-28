@@ -1,0 +1,48 @@
+0	1	mikroCdsPIC.exe -MSF -DBG -pP33FJ64GP804 -DL -SSA -O11111114 -fo80 -N"C:\Users\Renan\Documents\My Dropbox\Fórmula Eng 3\Engenharia 3\CT02 - Acelerômetro\Programa CT02\CT02_III.mcpds" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\uses\" -SP"C:\Users\Renan\Documents\My Dropbox\Fórmula Eng 3\Engenharia 3\CT02 - Acelerômetro\Programa CT02\" -SP"C:\Users\NEAC\Dropbox\Formula Eng3\Engenharia 3\CT02 - Acelerômetro\Programa CT02\" -SP"C:\Users\Renan\Documents\Eletrônica\FSAE\CT02 - Acelerômetro\Programa CT02\" -SP"C:\Users\Renan\Documents\My Dropbox\Fórmula SAE 2012\Engenharia 3\CT02 - Acelerômetro\Programa CT02\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for dsPIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for dsPIC\uses\" -SP"C:\Engenharia 3\Programa CT02 III\" -IP"C:\Users\Renan\Documents\My Dropbox\Fórmula SAE 2012\Engenharia 3\CT02 - Acelerômetro\Programa CT02\" -IP"C:\Users\Renan\Documents\Eletrônica\FSAE\CT02 - Acelerômetro\Programa CT02\" -IP"C:\Users\Renan\Documents\My Dropbox\Fórmula Eng 3\Engenharia 3\CT02 - Acelerômetro\Programa CT02\" -IP"C:\Users\NEAC\Dropbox\Formula Eng3\Engenharia 3\CT02 - Acelerômetro\Programa CT02\" -IP"C:\Users\Renan\Documents\My Dropbox\Fórmula Eng 3\Engenharia 3\CT03 - Backnode\Programa BSM\" "CT02_III.c" "Funcoes_ADXL.c" "Funcoes_Radio.c" "Inicializacoes_FSM.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Setjmp.mcl" "__Lib_Conversions.mcl" "__Lib_Sprintf.mcl" "__Lib_PrintOut.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_1_p24HJ_p33_2_7.mcl" "__Lib_FLASH_p24_p33.mcl" "__Lib_I2C_1_p24_p33.mcl" "__Lib_PWM_1.mcl" "__Lib_SPI_12.mcl" "__Lib_UART_12_p24_p33.mcl" "__Lib_ECAN_1.mcl" "__Lib_PPS_p33FJ_GP_02_04_DPC44A.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_CFFat16.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_Mmc.mcl" "__Lib_MmcFat16.mcl" "__Lib_MmcFat16Constants.mcl" "__Lib_RS485.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl" "__Lib_EthEnc24j600.mcl" "__Lib_TouchPanel.mcl" "__Lib_BitReverseComplex.mcl" "__Lib_FFT.mcl" "__Lib_FirRadix.mcl" "__Lib_IirRadix.mcl" "__Lib_Matrices.mcl" "__Lib_TwiddleFactors.mcl" "__Lib_Vectors.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\NEAC\Dropbox\Formula Eng3\Engenharia 3\CT02 - Acelerômetro\Programa CT02'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Renan\Documents\My Dropbox\Fórmula SAE 2012\Engenharia 3\CT02 - Acelerômetro\Programa CT02'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Arquivos de programas\Mikroelektronika\mikroC PRO for dsPIC\defs'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Arquivos de programas\Mikroelektronika\mikroC PRO for dsPIC\uses'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Engenharia 3\Programa CT02 III'	 
+warning: 0	1502	Specified include path does not exist: 'C:\Users\Renan\Documents\My Dropbox\Fórmula SAE 2012\Engenharia 3\CT02 - Acelerômetro\Programa CT02'	 
+warning: 0	1502	Specified include path does not exist: 'C:\Users\NEAC\Dropbox\Formula Eng3\Engenharia 3\CT02 - Acelerômetro\Programa CT02'	 
+diagnostics: 0	121	Loading...	 
+diagnostics: 0	126	All files Preprocessed in 78 ms	 
+diagnostics: 0	122	Compilation Started	ecan_ids.h
+hint: 0	1004	interrupt handler (C1Interrupt at 0x005A)	CT02_III.c
+hint: 0	1004	interrupt handler (interrupt_timer1 at 0x001A)	CT02_III.c
+hint: 0	1004	interrupt handler (interrupt_timer5 at 0x004C)	CT02_III.c
+hint: 0	1004	interrupt handler (U2RXInterrupt at 0x0050)	CT02_III.c
+hint: 0	1004	interrupt handler (InputCapture1Int at 0x0016)	CT02_III.c
+hint: 0	1004	interrupt handler (InputCapture2Int at 0x001E)	CT02_III.c
+hint: 0	1004	interrupt handler (InputCapture7Int at 0x0040)	CT02_III.c
+warning: 689	1505	Suspicious pointer conversion	CT02_III.c
+warning: 690	1505	Suspicious pointer conversion	CT02_III.c
+warning: 691	1505	Suspicious pointer conversion	CT02_III.c
+warning: 692	1505	Suspicious pointer conversion	CT02_III.c
+warning: 693	1505	Suspicious pointer conversion	CT02_III.c
+warning: 694	1505	Suspicious pointer conversion	CT02_III.c
+warning: 695	1505	Suspicious pointer conversion	CT02_III.c
+warning: 696	1505	Suspicious pointer conversion	CT02_III.c
+warning: 704	1505	Suspicious pointer conversion	CT02_III.c
+warning: 716	1505	Suspicious pointer conversion	CT02_III.c
+warning: 740	1505	Suspicious pointer conversion	CT02_III.c
+warning: 752	1505	Suspicious pointer conversion	CT02_III.c
+warning: 779	1508	Implicit conversion of int to ptr	CT02_III.c
+diagnostics: 980	123	Compiled Successfully	CT02_III.c
+diagnostics: 0	122	Compilation Started	Funcoes_ADXL.c
+diagnostics: 88	123	Compiled Successfully	Funcoes_ADXL.c
+hint: 30	1164	Variable 'internal' has been eliminated by optimizer	Funcoes_ADXL.c
+hint: 40	1164	Variable 'internal' has been eliminated by optimizer	Funcoes_ADXL.c
+diagnostics: 0	122	Compilation Started	Funcoes_Radio.c
+diagnostics: 37	123	Compiled Successfully	Funcoes_Radio.c
+diagnostics: 0	122	Compilation Started	funcoes_adxl.h
+diagnostics: 256	123	Compiled Successfully	Inicializacoes_FSM.c
+diagnostics: 0	127	All files Compiled in 359 ms	 
+hint: 0	1144	Used RX (bytes): 32 (100%)   Free RX (bytes): 0 (0%)	Used RX (bytes): 32 (100%)   Free RX (bytes): 0 (0%)
+hint: 0	1144	Static RAM (bytes): 1391   Dynamic RAM (bytes): 13200	Static RAM (bytes): 1391   Dynamic RAM (bytes): 13200
+hint: 0	1144	Used ROM (bytes): 8346 (19%)  Free ROM (bytes): 35686 (81%)	Used ROM (bytes): 8346 (19%)  Free ROM (bytes): 35686 (81%)
+diagnostics: 0	125	Project Linked Successfully	CT02_III.mcpds
+diagnostics: 0	128	Linked in 2652 ms	 
+diagnostics: 0	129	Project 'CT02_III.mcpds' completed: 3775 ms	 
+diagnostics: 0	103	Finished successfully: 02 fev 2013, 09:13:58	CT02_III.mcpds

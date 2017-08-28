@@ -1,0 +1,12 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP12F675 -DL -O11111114 -fo4 -N"C:\Users\Renan\Documents\Eletrônica\Coracao\Heart Proj.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\Renan\Documents\Eletrônica\Coracao\" "Heart Proj.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_ADC_A_E.mcl"	 
+hint: 0	1139	Available RAM: 48 [bytes], Available ROM: 1024 [bytes]	 
+diagnostics: 0	126	All files Preprocessed in 31 ms	 
+diagnostics: 0	122	Compilation Started	Heart Proj.c
+diagnostics: 176	123	Compiled Successfully	Heart Proj.c
+diagnostics: 0	127	All files Compiled in 16 ms	 
+hint: 0	1144	Used RAM (bytes): 19 (40%)  Free RAM (bytes): 29 (60%)	Used RAM (bytes): 19 (40%)  Free RAM (bytes): 29 (60%)
+hint: 0	1144	Used ROM (program words): 558 (54%)  Free ROM (program words): 466 (46%)	Used ROM (program words): 558 (54%)  Free ROM (program words): 466 (46%)
+diagnostics: 0	125	Project Linked Successfully	Heart Proj.mcppi
+diagnostics: 0	128	Linked in 46 ms	 
+diagnostics: 0	129	Project 'Heart Proj.mcppi' completed: 124 ms	 
+diagnostics: 0	103	Finished successfully: 21 mai 2012, 19:26:57	Heart Proj.mcppi

@@ -1,0 +1,42 @@
+[DEVICE]
+Name=P16F876A
+Clock=4000000
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=Dimmer e Sensor.c
+[USE_EEPROM]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+Count=1
+File0=Dimmer e Sensor.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+[OPENED_FILES]
+Count=4
+File0=Dimmer e Sensor.c
+File1=..\..\Kit Fase Control\Exemplos\Exemplos C\Exemplo2\fasecontrol_01.c
+File2=Dimmer e Sensor.asm
+File3=..\..\..\..\..\..\Program Files\Mikroelektronika\mikroC PRO for PIC\Examples\Internal MCU modules\P16F887\Timer1 Interrupt\Timer1_Interrupt.c
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=3
+Path0=C:\Program Files\Mikroelektronika\mikroC PRO for PIC\defs\
+Path1=C:\Program Files\Mikroelektronika\mikroC PRO for PIC\Uses\P16\
+Path2=C:\Users\Renan\Documents\Eletrônica\Sensores de Luz\pROGRAMA\
+[HEADER_PATH]
+Count=0
+[HEADERS]
+Count=0
+[PLDS]
+Count=0
+[Useses]
+Count=1
+File0=ADC

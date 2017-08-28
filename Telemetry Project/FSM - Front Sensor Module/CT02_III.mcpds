@@ -1,0 +1,130 @@
+[DEVICE]
+Name=P33FJ64GP804
+Clock=80000000
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=CT02_III.c
+[USE_EEPROM]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=2000
+[FILES]
+Count=4
+File0=CT02_III.c
+File1=Funcoes_ADXL.c
+File2=Funcoes_Radio.c
+File3=Inicializacoes_FSM.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+Count=5
+File0=CT02_III.c
+File1=Inicializacoes_FSM.c
+File2=Inicializacoes_FSM.h
+File3=..\Exemplos GPS\GPS Article - dsPIC Source Codes\mikroC dsPIC\Smart_GPS.c
+File4=Funcoes_Radio.c
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=9
+Path0=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\defs\
+Path1=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\uses\
+Path2=C:\Users\Renan\Documents\My Dropbox\Fórmula Eng 3\Engenharia 3\CT02 - Acelerômetro\Programa CT02\
+Path3=C:\Users\NEAC\Dropbox\Formula Eng3\Engenharia 3\CT02 - Acelerômetro\Programa CT02\
+Path4=C:\Users\Renan\Documents\Eletrônica\FSAE\CT02 - Acelerômetro\Programa CT02\
+Path5=C:\Users\Renan\Documents\My Dropbox\Fórmula SAE 2012\Engenharia 3\CT02 - Acelerômetro\Programa CT02\
+Path6=C:\Arquivos de programas\Mikroelektronika\mikroC PRO for dsPIC\defs\
+Path7=C:\Arquivos de programas\Mikroelektronika\mikroC PRO for dsPIC\uses\
+Path8=C:\Engenharia 3\Programa CT02 III\
+[HEADER_PATH]
+Count=5
+Path0=C:\Users\Renan\Documents\My Dropbox\Fórmula SAE 2012\Engenharia 3\CT02 - Acelerômetro\Programa CT02\
+Path1=C:\Users\Renan\Documents\Eletrônica\FSAE\CT02 - Acelerômetro\Programa CT02\
+Path2=C:\Users\Renan\Documents\My Dropbox\Fórmula Eng 3\Engenharia 3\CT02 - Acelerômetro\Programa CT02\
+Path3=C:\Users\NEAC\Dropbox\Formula Eng3\Engenharia 3\CT02 - Acelerômetro\Programa CT02\
+Path4=C:\Users\Renan\Documents\My Dropbox\Fórmula Eng 3\Engenharia 3\CT03 - Backnode\Programa BSM\
+[HEADERS]
+Count=5
+File0=ECAN_Defs.h
+File1=ECAN_IDs.h
+File2=Inicializacoes_FSM.h
+File3=Funcoes_Radio.h
+File4=Funcoes_ADXL.h
+[PLDS]
+Count=0
+[Useses]
+Count=56
+File0=ADC
+File1=BitReverseComplex
+File2=Button
+File3=CAN_SPI
+File4=Compact_Flash
+File5=Compact_Flash_FAT16
+File6=Conversions
+File7=C_Math
+File8=C_Stdlib
+File9=C_String
+File10=C_Type
+File11=ECAN
+File12=FFT
+File13=FirRadix
+File14=FLASH
+File15=Glcd
+File16=Glcd_Fonts
+File17=I2C
+File18=IirRadix
+File19=Keypad4x4
+File20=Lcd
+File21=Lcd_Constants
+File22=Manchester
+File23=Matrices
+File24=Mmc
+File25=Mmc_FAT16
+File26=One_Wire
+File27=Peripheral_Pin_Select
+File28=Port_Expander
+File29=PrintOut
+File30=PS2
+File31=PWM
+File32=RS485
+File33=Setjmp
+File34=Software_I2C
+File35=Software_SPI
+File36=Software_UART
+File37=Sound
+File38=SPI
+File39=SPI_Ethernet
+File40=SPI_Ethernet_24j600
+File41=SPI_Glcd
+File42=SPI_Lcd
+File43=SPI_Lcd8
+File44=SPI_T6963C
+File45=Sprintf
+File46=Sprinti
+File47=Sprintl
+File48=T6963C
+File49=Time
+File50=TouchPanel
+File51=Trigonometry
+File52=TwiddleFactors
+File53=UART
+File54=Vectors
+File55=Mmc_Fat16_Config
+[EXPANDED NODES]
+Node1=Sources
+Node2=Header Files
+Count=2

@@ -1,0 +1,13 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F2480 -DL -O11111114 -fo8 -N"C:\Users\Renan\Documents\Eletrônica\FSAE\Aula Protocolo CAN\PIC Temp1\PicTemp1.mcppi" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\Renan\Documents\Eletrônica\FSAE\Aula Protocolo CAN\PIC Temp1\" "PicTemp1.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_ADC_A_D.mcl" "__Lib_CAN_C_A.mcl"	 
+diagnostics: 0	125	All files Preprocessed in 47 ms	 
+diagnostics: 0	121	Compilation Started	PicTemp1.c
+hint: 66	1158	Variable 'txt' has been declared, but not used	PicTemp1.c
+diagnostics: 141	122	Compiled Successfully	PicTemp1.c
+diagnostics: 0	126	All files Compiled in 328 ms	 
+hint: 0	1140	Used RAM (bytes): 47 (6%)  Free RAM (bytes): 700 (94%)	Used RAM (bytes): 47 (6%)  Free RAM (bytes): 700 (94%)
+hint: 0	1140	Used ROM (bytes): 3276 (20%)  Free ROM (bytes): 13108 (80%)	Used ROM (bytes): 3276 (20%)  Free ROM (bytes): 13108 (80%)
+diagnostics: 0	124	Project Linked Successfully	PicTemp1.mcppi
+diagnostics: 0	127	Linked in 2262 ms	 
+diagnostics: 0	128	Project 'PicTemp1.mcppi' completed: 3729 ms	 
+diagnostics: 0	103	Finished successfully: 10 mai 2010, 19:15:17	PicTemp1.mcppi

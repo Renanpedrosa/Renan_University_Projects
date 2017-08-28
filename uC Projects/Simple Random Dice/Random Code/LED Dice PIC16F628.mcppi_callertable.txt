@@ -1,0 +1,7 @@
+main
+	__CC2DW
+		____DoICP
+	Numero
+		Mul_16x16_U
+		Div_16x16_U
+interrupt

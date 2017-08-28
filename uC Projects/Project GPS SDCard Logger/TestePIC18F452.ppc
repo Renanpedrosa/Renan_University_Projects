@@ -1,0 +1,29 @@
+[DeviceName]
+Value=P18F452
+[DeviceClock]
+Value=16
+[MainUnit]
+Value=
+[DeviceFlags]
+Count=3
+Value0=_HS_OSC_1H = $00FA
+Value1=_WDT_OFF_2H = $00FE
+Value2=_LVP_ON_4L = $00FF
+[BuildType]
+bType=0
+[ProjectFiles]
+Count=1
+Value0=TestePIC18F452.c
+[HeaderFiles]
+Count=0
+[ObjLibFiles]
+Count=0
+[EEPROMinfo]
+isused=0
+[SearchPath]
+Count=3
+Value0=C:\Arquivos de programas\Mikroelektronika\mikroC\Defs\
+Value1=C:\Arquivos de programas\Mikroelektronika\mikroC\Uses\p18\
+Value2=E:\Renan\Compiladores C\GPS_SD_Interface\
+[IncludePath]
+Count=0

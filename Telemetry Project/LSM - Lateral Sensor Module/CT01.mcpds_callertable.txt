@@ -1,0 +1,36 @@
+main
+	InitClock
+	InitPorts
+		Unlock_IOLOCK
+		PPS_Mapping
+			_PPS_Mapping
+				Unlock_IOLOCK
+				Lock_IOLOCK
+		Lock_IOLOCK
+	InitTimersCapture
+	InitCan
+		ECAN1DmaChannelInit
+		ECAN1Initialize
+			ECAN1SetOperationMode
+			ECAN1SetBaudRate
+		ECAN1SetBufferSize
+		ECAN1SelectTxBuffers
+		ECAN1SetOperationMode
+		ECAN1SetMask
+			ECAN1IDToRegs
+	InitMain
+		ADC1_Init_Advanced
+		SPI1_Init_Advanced
+		PGA_Set_Gain
+			SPI1_Write
+				SPI1_Read
+	VDelay_ms
+		_Multiply_32x32
+	ADC1_Get_Sample
+	PGA_Set_Channel
+		SPI1_Write
+			SPI1_Read
+	ECAN1Write
+		ECAN1IDToRegs
+C1Interrupt
+InputCapture1Int

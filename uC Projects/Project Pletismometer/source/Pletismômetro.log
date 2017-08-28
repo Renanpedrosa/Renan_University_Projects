@@ -1,0 +1,22 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4550 -DL -O11111114 -fo16 -N"I:\Eletrônica\Projeto Plestimógrafo\Programa uC PRO\Pletismômetro.mcppi" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"I:\Eletrônica\Projeto Plestimógrafo\Programa uC PRO\" -SP"C:\Program Files (x86)\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Program Files (x86)\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"H:\Eletrônica\Projeto Plestimógrafo\Programa uC PRO\" -SP"H:\Eletrônica\Projeto Plestimógrafo\Programas\" -SP"I:\Eletrônica\Projeto Plestimógrafo\Programas\" "Pletismometro_Capacitivo.c" "Pletismômetro.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_Conversions.mcl" "__Lib_Button.mcl" "__Lib_USB_genHID.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Program Files (x86)\Mikroelektronika\mikroC PRO for PIC\defs'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Program Files (x86)\Mikroelektronika\mikroC PRO for PIC\uses\P18'	 
+warning: 0	1501	Specified search path does not exist: 'H:\Eletrônica\Projeto Plestimógrafo\Programa uC PRO'	 
+warning: 0	1501	Specified search path does not exist: 'H:\Eletrônica\Projeto Plestimógrafo\Programas'	 
+diagnostics: 0	121	Compilation Started	P18F4550.c
+diagnostics: 1585	122	Compiled Successfully	P18F4550.c
+diagnostics: 0	121	Compilation Started	__Lib_Delays.c
+diagnostics: 139	122	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	125	All files Preprocessed in 3323 ms	 
+diagnostics: 0	121	Compilation Started	Pletismometro_Capacitivo.c
+diagnostics: 0	122	Compiled Successfully	Pletismometro_Capacitivo.c
+diagnostics: 0	121	Compilation Started	Pletismometro_Capacitivo.c
+diagnostics: 488	122	Compiled Successfully	Pletismômetro.c
+diagnostics: 0	126	All files Compiled in 4337 ms	 
+hint: 0	1140	Used RAM (bytes): 355 (18%)  Free RAM (bytes): 1670 (82%)	Used RAM (bytes): 355 (18%)  Free RAM (bytes): 1670 (82%)
+hint: 0	1140	Used ROM (bytes): 2617 (8%)  Free ROM (bytes): 30151 (92%)	Used ROM (bytes): 2617 (8%)  Free ROM (bytes): 30151 (92%)
+diagnostics: 0	124	Project Linked Successfully	Pletismômetro.mcppi
+diagnostics: 0	127	Linked in 6146 ms	 
+diagnostics: 0	128	Project 'Pletismômetro.mcppi' completed: 16271 ms	 
+diagnostics: 0	103	Finished successfully: 31 jul 2009, 11:55:24	Pletismômetro.mcppi

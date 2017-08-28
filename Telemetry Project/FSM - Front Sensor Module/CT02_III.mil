@@ -1,0 +1,201 @@
+_InitMain:
+  begin   (midx: 0)
+//CT02_III.c,83 :: 		void InitMain()
+_InitMain:
+  begin   (midx: 0)
+//CT02_III.c,86 :: 		CLKDIV &= 0xFFE0;   //Zera os bits do PLL prescaler que serão modificados
+	W10 <2> <- PUSH(W10)   (midx: 0)
+	W11 <2> <- PUSH(W11)   (midx: 0)
+	W12 <2> <- PUSH(W12)   (midx: 0)
+	W1 <2> <- 65504   (midx: 0)
+	W0 <2> <- addr(CLKDIV)   (midx: 0)
+	[W0] <2> <-  [W0] & W1   (midx: 1)
+//CT02_III.c,87 :: 		CLKDIV |= 0x0003;   //PLL prescaler = N1 = 5
+	W1 <2> <- 3   (midx: 0)
+	W0 <2> <- addr(CLKDIV)   (midx: 0)
+	[W0] <2> <-  [W0] | W1   (midx: 1)
+//CT02_III.c,88 :: 		PLLFBD = 38;        //PLL multiplier = M = 38
+	W0 <2> <- 38   (midx: 0)
+	PLLFBD <2> <- W0   (midx: 0)
+//CT02_III.c,89 :: 		CLKDIV &= 0xFF3F;   //PLL postscaler = N2 = 2
+	W1 <2> <- 65343   (midx: 0)
+	W0 <2> <- addr(CLKDIV)   (midx: 0)
+	[W0] <2> <-  [W0] & W1   (midx: 1)
+//CT02_III.c,95 :: 		LED = 1;
+	LATA8_bit <0> <- 1   (midx: 0)
+//CT02_III.c,98 :: 		AD1PCFGL = 0x1800;
+	W0 <2> <- 6144   (midx: 0)
+	AD1PCFGL <2> <- W0   (midx: 0)
+//CT02_III.c,100 :: 		TRISA8_bit = 0;        //Seta o pino do led como uma saída digital
+	TRISA8_bit <0> <- 0   (midx: 0)
+//CT02_III.c,101 :: 		TRISA9_bit = 1;        //Seta o pino do botão como uma entrada digital
+	TRISA9_bit <0> <- 1   (midx: 0)
+//CT02_III.c,104 :: 		TRISA0_bit  = 1;        //AN0 - VBAT
+	TRISA0_bit <0> <- 1   (midx: 0)
+//CT02_III.c,105 :: 		TRISA1_bit  = 1;        //AN1 - IBAT
+	TRISA1_bit <0> <- 1   (midx: 0)
+//CT02_III.c,106 :: 		TRISB0_bit  = 1;        //AN2 - VSISELET
+	TRISB0_bit <0> <- 1   (midx: 0)
+//CT02_III.c,107 :: 		TRISB1_bit  = 1;        //AN3 - ISISELET
+	TRISB1_bit <0> <- 1   (midx: 0)
+//CT02_III.c,108 :: 		TRISB2_bit  = 1;        //AN4 - SUSPFE
+	TRISB2_bit <0> <- 1   (midx: 0)
+//CT02_III.c,109 :: 		TRISB3_bit  = 1;        //AN5 - SUSPFD
+	TRISB3_bit <0> <- 1   (midx: 0)
+//CT02_III.c,110 :: 		TRISC0_bit  = 1;        //AN6 - ICANBUS
+	TRISC0_bit <0> <- 1   (midx: 0)
+//CT02_III.c,111 :: 		TRISB15_bit = 1;        //AN9 - TMP_OUT
+	TRISB15_bit <0> <- 1   (midx: 0)
+//CT02_III.c,122 :: 		MOV #0x743, w1         ;note memory address of OSSCONH address
+	asm: -1   (midx: 1)
+//CT02_III.c,123 :: 		MOV.B #0b011, w0
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 5)
+//CT02_III.c,124 :: 		MOV #0x78, w2
+	asm: -1   (midx: 1)
+//CT02_III.c,125 :: 		MOV #0x9A, w3
+	asm: -1   (midx: 1)
+//CT02_III.c,126 :: 		MOV.B w2, [w1]
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 5)
+//CT02_III.c,127 :: 		MOV.B w3, [w1]
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 5)
+//CT02_III.c,128 :: 		MOV.B w0, [w1]
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 5)
+//CT02_III.c,130 :: 		MOV #0x742, w1         ;note memory address of OSSCONL address
+	asm: -1   (midx: 1)
+//CT02_III.c,131 :: 		MOV.B #0x03, w0
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 5)
+//CT02_III.c,132 :: 		MOV #0x46, w2
+	asm: -1   (midx: 1)
+//CT02_III.c,133 :: 		MOV #0x57, w3
+	asm: -1   (midx: 1)
+//CT02_III.c,134 :: 		MOV.B w2, [w1]
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 5)
+//CT02_III.c,135 :: 		MOV.B w3, [w1]
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 5)
+//CT02_III.c,136 :: 		MOV.B w0, [w1]
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 5)
+//CT02_III.c,137 :: 		NOP
+	asm: -1   (midx: 1)
+//CT02_III.c,138 :: 		NOP
+	asm: -1   (midx: 1)
+//CT02_III.c,143 :: 		LED = 0;
+	LATA8_bit <0> <- 0   (midx: 0)
+//CT02_III.c,153 :: 		Unlock_IOLOCK();
+	CALL _Unlock_IOLOCK   (midx: 0)
+//CT02_III.c,154 :: 		PPS_Mapping(36, _OUTPUT, _SCK1OUT); //Configura o pino 36 como saída do clock do SPI1
+	W12 <1> <- 8   (midx: 0)
+	W11 <1> <- 0   (midx: 0)
+	W10 <1> <- 36   (midx: 0)
+	CALL _PPS_Mapping   (midx: 0)
+//CT02_III.c,155 :: 		Unlock_IOLOCK();
+	CALL _Unlock_IOLOCK   (midx: 0)
+//CT02_III.c,156 :: 		PPS_Mapping(37, _OUTPUT, _SDO1);    //Configura o pino 37 como saída serial do SPI1
+	W12 <1> <- 7   (midx: 0)
+	W11 <1> <- 0   (midx: 0)
+	W10 <1> <- 37   (midx: 0)
+	CALL _PPS_Mapping   (midx: 0)
+//CT02_III.c,157 :: 		Unlock_IOLOCK();
+	CALL _Unlock_IOLOCK   (midx: 0)
+//CT02_III.c,158 :: 		PPS_Mapping(9, _OUTPUT, _SDO2);     //Configura o pino 9 como saída serial do SPI2
+	W12 <1> <- 10   (midx: 0)
+	W11 <1> <- 0   (midx: 0)
+	W10 <1> <- 9   (midx: 0)
+	CALL _PPS_Mapping   (midx: 0)
+//CT02_III.c,159 :: 		Unlock_IOLOCK();
+	CALL _Unlock_IOLOCK   (midx: 0)
+//CT02_III.c,160 :: 		PPS_Mapping(10, _OUTPUT, _SCK2OUT); //Configura o pino 36 como saída do clock do SPI2
+	W12 <1> <- 11   (midx: 0)
+	W11 <1> <- 0   (midx: 0)
+	W10 <1> <- 10   (midx: 0)
+	CALL _PPS_Mapping   (midx: 0)
+//CT02_III.c,161 :: 		Unlock_IOLOCK();
+	CALL _Unlock_IOLOCK   (midx: 0)
+//CT02_III.c,162 :: 		PPS_Mapping(11, _INPUT, _SDI2);     //Configura o pino 9 como entrada serial do SPI2
+	W12 <1> <- 18   (midx: 0)
+	W11 <1> <- 1   (midx: 0)
+	W10 <1> <- 11   (midx: 0)
+	CALL _PPS_Mapping   (midx: 0)
+//CT02_III.c,163 :: 		Unlock_IOLOCK();
+	CALL _Unlock_IOLOCK   (midx: 0)
+//CT02_III.c,164 :: 		PPS_Mapping(4, _OUTPUT, _U1TX);     //Configura o pino 4 como TX da UART1
+	W12 <1> <- 3   (midx: 0)
+	W11 <1> <- 0   (midx: 0)
+	W10 <1> <- 4   (midx: 0)
+	CALL _PPS_Mapping   (midx: 0)
+//CT02_III.c,165 :: 		Unlock_IOLOCK();
+	CALL _Unlock_IOLOCK   (midx: 0)
+//CT02_III.c,166 :: 		PPS_Mapping(5, _INPUT, _U1RX);      //Configura o pino 5 como rx da UART1
+	W12 <1> <- 11   (midx: 0)
+	W11 <1> <- 1   (midx: 0)
+	W10 <1> <- 5   (midx: 0)
+	CALL _PPS_Mapping   (midx: 0)
+//CT02_III.c,167 :: 		Lock_IOLOCK();
+	CALL _Lock_IOLOCK   (midx: 0)
+//CT02_III.c,170 :: 		UART1_Init(19200);               // Initialize UART module at 9600 bps
+	W10 <4> <- 19200   (midx: 0)
+	CALL _UART1_Init   (midx: 0)
+//CT02_III.c,171 :: 		Delay_ms(100);                  // Wait for UART module to stabilize
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 2)
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 5)
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 5)
+	asm: -1   (midx: 1)
+//CT02_III.c,173 :: 		UART1_Write_Text("Start");
+	W10 <2> <- #?lstr1_CT02_III   (midx: 0)
+	CALL _UART1_Write_Text   (midx: 0)
+//CT02_III.c,175 :: 		if(OSCCONbits.LOCK == 1) //Condição que verifica se o PLL está ativado.
+	if (!OSCCONbits+0) then goto 1   (midx: 18)
+//CT02_III.c,177 :: 		UART1_Write('B');      //Se o PLL está ativado o char B é escrito na serial.
+	W10 <2> <- 66   (midx: 0)
+	CALL _UART1_Write   (midx: 0)
+//CT02_III.c,178 :: 		}
+1:   (midx: 0)
+//CT02_III.c,180 :: 		ADC1_Init_Advanced(_ADC_12bit, _ADC_INTERNAL_REF);
+	W11 <2> <- 0   (midx: 0)
+	W10 <2> <- 1   (midx: 0)
+	CALL _ADC1_Init_Advanced   (midx: 0)
+//CT02_III.c,181 :: 		}
+	W12 <2> <- POP   (midx: 251)
+	W11 <2> <- POP   (midx: 251)
+	W10 <2> <- POP   (midx: 251)
+  end
+   (midx: 0)
+_main:
+  begin   (midx: 0)
+//CT02_III.c,185 :: 		void main()
+_main:
+  begin   (midx: 0)
+//CT02_III.c,188 :: 		InitMain();
+	CALL _InitMain   (midx: 0)
+//CT02_III.c,191 :: 		while(1)
+2:   (midx: 0)
+//CT02_III.c,193 :: 		LED = 1;        // Invert PORTA value
+	LATA8_bit <0> <- 1   (midx: 0)
+//CT02_III.c,194 :: 		Delay_ms(1000);
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 2)
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 5)
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 1)
+	asm: -1   (midx: 5)
+	asm: -1   (midx: 1)
+//CT02_III.c,195 :: 		LED = 0;
+	LATA8_bit <0> <- 0   (midx: 0)
+//CT02_III.c,279 :: 		}
+	goto	2   (midx: 0)
+  end
+   (midx: 0)

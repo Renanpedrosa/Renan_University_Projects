@@ -1,0 +1,14 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP12F629 -DL -O11111114 -fo4 -N"C:\Users\Renan\Documents\Eletrônica\Aula CEFET Dado\LED Dice.mcppi" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\Renan\Documents\Eletrônica\Aula CEFET Dado\" "LED Dice.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_Button.mcl"	 
+diagnostics: 0	125	All files Preprocessed in 32 ms	 
+diagnostics: 0	121	Compilation Started	LED Dice.c
+warning: 64	1503	Result is not defined in function: 'interrupt'	LED Dice.c
+hint: 73	1158	Variable 'last_Pattern' has been declared, but not used	LED Dice.c
+diagnostics: 120	122	Compiled Successfully	LED Dice.c
+diagnostics: 0	126	All files Compiled in 93 ms	 
+hint: 0	1140	Used RAM (bytes): 23 (24%)  Free RAM (bytes): 73 (76%)	Used RAM (bytes): 23 (24%)  Free RAM (bytes): 73 (76%)
+hint: 0	1140	Used ROM (program words): 274 (13%)  Free ROM (program words): 1774 (87%)	Used ROM (program words): 274 (13%)  Free ROM (program words): 1774 (87%)
+diagnostics: 0	124	Project Linked Successfully	LED Dice.mcppi
+diagnostics: 0	127	Linked in 312 ms	 
+diagnostics: 0	128	Project 'LED Dice.mcppi' completed: 530 ms	 
+diagnostics: 0	103	Finished successfully: 05 ago 2009, 23:10:40	LED Dice.mcppi

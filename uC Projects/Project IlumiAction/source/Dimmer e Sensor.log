@@ -1,0 +1,12 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F876A -DL -O11111114 -fo4 -N"C:\Users\Renan\Documents\Eletrônica\Sensores de Luz\pROGRAMA\Dimmer e Sensor.mcppi" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\Renan\Documents\Eletrônica\Sensores de Luz\pROGRAMA\" "Dimmer e Sensor.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_ADC_A_C.mcl"	 
+diagnostics: 0	125	All files Preprocessed in 31 ms	 
+diagnostics: 0	121	Compilation Started	Dimmer e Sensor.c
+diagnostics: 343	122	Compiled Successfully	Dimmer e Sensor.c
+diagnostics: 0	126	All files Compiled in 234 ms	 
+hint: 0	1141	Used RAM (bytes): 42 (12%)  Free RAM (bytes): 310 (88%)	Used RAM (bytes): 42 (12%)  Free RAM (bytes): 310 (88%)
+hint: 0	1141	Used ROM (program words): 791 (10%)  Free ROM (program words): 7401 (90%)	Used ROM (program words): 791 (10%)  Free ROM (program words): 7401 (90%)
+diagnostics: 0	124	Project Linked Successfully	Dimmer e Sensor.mcppi
+diagnostics: 0	127	Linked in 374 ms	 
+diagnostics: 0	128	Project 'Dimmer e Sensor.mcppi' completed: 764 ms	 
+diagnostics: 0	103	Finished successfully: 21 out 2009, 02:54:56	Dimmer e Sensor.mcppi
